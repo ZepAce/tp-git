@@ -137,10 +137,18 @@ Faire un commit intégrant cette ajout : "Ajout fichier5.md"
 git commit fichier5.md "Ajout fichier5.md"
 
 Entrer la commande git log --oneline --decorate --graph --all pour visualiser, sur le terminal, le graphe des commits sur toutes les branches
+git log --oneline --decorate --graph --all
+
 Noter la « déviation » entre les deux branches, à partir de la branche master
+HEAD -> master, origin/master, fonctionnalite2
+
 Installer l'extension VS Code Git Graph et visualiser le graphe actuel des commits à l'aide de cette extension
 Sur cette représentation, que représente les points ?
+Des commits
+
 Comment voit-on sur quelle branche on est actuellement ?
+il y a écrit origin à côté
+
 On considère que la branche originale (master ou main) est la branche d'intégration, c'est-à-dire celle qui va contenir l'historique de toutes les modifications développées au fur et à mesure dans les branches annexes
 On va maintenant fusionner la branche fonctionnalite1, qui est terminée, avec la branche d'intégration
 Se déplacer sur la branche master
